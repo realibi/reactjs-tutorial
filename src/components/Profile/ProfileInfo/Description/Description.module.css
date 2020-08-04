@@ -1,0 +1,21 @@
+.description{
+    display: inline-block;
+    width: 600px;
+    height: 200px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 24px;
+    color: #e8e9e9;
+    position: absolute;
+}
+
+.description_text{
+    font-size: 20px;
+    color: #e8e9e9;
+    position: absolute;
+    top: 30px;
+}

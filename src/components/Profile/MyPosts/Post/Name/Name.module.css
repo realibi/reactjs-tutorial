@@ -1,0 +1,9 @@
+.name{
+    width: 600px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 8px;
+}

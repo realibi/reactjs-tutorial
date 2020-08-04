@@ -1,0 +1,14 @@
+.content{
+    grid-area: c;
+    background-color: #131313;
+    padding: 20px;
+    margin: 2px;
+}
+
+#profile-background-img{
+    width: 100%;
+}
+
+.in_row{
+    display: inline-block;
+}
