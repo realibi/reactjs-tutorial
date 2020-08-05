@@ -2,6 +2,13 @@ body{
   background-color: #1f2022;
 }
 
+.app-wrapper-content{
+  grid-area: c;
+  background-color: #131313;
+  padding: 20px;
+  margin: 2px;
+}
+
 .app-wrapper{
   width: 1200px;
   margin: 0 auto;
@@ -11,6 +18,11 @@ body{
   grid-template-areas:
           "h h"
           "n c";
+}
+
+.page-text{
+  color: #e8e9e9;
+  font-weight: bolder;
 }
 
 .important-text{

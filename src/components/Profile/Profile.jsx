@@ -6,7 +6,7 @@ import NewPost from "./NewPost/NewPost";
 
 const Profile = () =>{
     return (
-        <div className={css.content}>
+        <div>
             <ProfileInfo/>
             <br/>
             <hr/>

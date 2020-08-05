@@ -9,8 +9,15 @@
     font-size: 18px;
     font-weight: bolder;
     color: #e8e9e9;
+    width:100%;
+    text-align: center;
 }
 
-.active{
+.item a{
+    color: white;
+    text-decoration: none;
+}
+
+.item a.active{
     color: cadetblue;
 }
