@@ -1,0 +1,12 @@
+.dialogItem{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: #373b40;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

@@ -34,3 +34,8 @@ body{
 .row{
   display: inline-block;
 }
+
+.center{
+  width: 100%;
+  text-align: center;
+}

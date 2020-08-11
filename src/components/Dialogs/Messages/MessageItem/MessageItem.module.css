@@ -1,0 +1,19 @@
+.messageItem{
+    margin-bottom: 15px;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.messageItem.foreignerMessage{
+    background-color: cadetblue;
+    border: 1px solid transparent;
+    border-radius: 0 30px 30px 30px;
+}
+
+.messageItem.myMessage{
+    background-color: #373b40;
+    border-radius: 30px 0 30px 30px;
+    margin-left: auto;
+    margin-right: 0;
+}

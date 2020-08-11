@@ -1,23 +1,14 @@
 .dialogs{
     display: grid;
     grid-template-columns: 4fr 10fr;
+    height: 100%;
 }
 
-.dialogsList{
-    border-right: 1px solid white;
-    padding-right: 20px;
-}
 
-.dialogItem{
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 5px;
-}
 
-.messages{
-    margin-left: 40px;
-}
 
-.messageItem{
-    margin-bottom: 10px;
-}
+
+
+
+
+
