@@ -3,11 +3,11 @@ import Avatar from "./Avatar/Avatar";
 import Description from "./Description/Description";
 import css from './ProfileInfo.module.css'
 
-const ProfileInfo = () =>{
+const ProfileInfo = (props) =>{
     return (
         <div className={css.profileInfo}>
-            <Avatar />
-            <Description />
+            <Avatar profile={props.profile}/>
+            <Description profile={props.profile}/>
         </div>
     );
 }

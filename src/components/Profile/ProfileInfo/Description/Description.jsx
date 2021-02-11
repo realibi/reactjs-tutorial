@@ -1,15 +1,14 @@
 import React from 'react';
 import css from './Description.module.css'
 
-const Description = () =>{
+const Description = (props) =>{
     return (
         <div className={css.description}>
-
             <div className={css.name}>
-                Kendall Jenner
+                {props.profile.fullName}
             </div>
             <div className={css.description_text}>
-                Welcome to my page and have a good day!
+                {props.profile.descriptionText}
             </div>
         </div>
     );

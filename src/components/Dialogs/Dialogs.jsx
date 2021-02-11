@@ -6,8 +6,8 @@ import Messages from "./Messages/Messages";
 const Dialogs = (props) =>{
     return (
         <div className={css.dialogs}>
-            <DialogList/>
-            <Messages/>
+            <DialogList dialogElements={props.dialogElements}/>
+            <Messages messageElements={props.messageElements}/>
         </div>
     );
 }
